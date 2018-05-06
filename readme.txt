@@ -6,6 +6,10 @@ $ git config --global user.name "areszn"
 
 $ git config --global user.email "areszn1988@gmail.com"
 
+$ git config --global color.ui true
+
+$ git config --global alias.st status  //set alias
+
 $ pwd
 /c/Users/Administrator
 
@@ -80,5 +84,28 @@ $ git stash //saving current workspace
 $ git stash list //current stash list 
 
 $ git stash pop //applay the current stash and delete it  or  you can use "$ git stash apply stash@{0}"
+
+
+
+$ git remote //remote info
+
+$ git remote -v //detail remote info
+
+$ git push origin master //push master branch to remote origin branch
+
+
+$ git pull
+
+$ git tag v1.0  // create a new tag v1.0
+
+$ git tag -a <tagname> -m "blablabla..." //add a comment to a tag
+
+$ git tag //show all tags
+
+$ git tag -d v1.0 //delete the tag
+
+$ git push origin <tagname>
+
+
 
 
