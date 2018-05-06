@@ -56,3 +56,17 @@ $ git config -l
 
 $ git remote add origin git@github.com:areszn/learngit.git
 $ git push -u origin master
+
+$ git checkout -b dev //switched to a new branch 'dev'
+
+$ git branch //show all branch
+
+$ git add readme.txt //add to branch 'dev'
+
+$ git commit -m 'a commit' //commit
+
+$ git checkout master //shwitch to branch 'master'
+
+$ git merge dev //merge the 'dev' branch to 'master' branch
+
+$ git 
