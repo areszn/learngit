@@ -69,4 +69,16 @@ $ git checkout master //shwitch to branch 'master'
 
 $ git merge dev //merge the 'dev' branch to 'master' branch
 
-$ git 
+$ git branch -d dev //delete the 'dev' branch
+
+
+
+
+
+$ git stash //saving current workspace
+
+$ git stash list //current stash list 
+
+$ git stash pop //applay the current stash and delete it  or  you can use "$ git stash apply stash@{0}"
+
+
